@@ -1,0 +1,21 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: goldenrod;
+}
+.time{
+    margin-top: 10%;
+    display: flex;flex-wrap: wrap;justify-content: center;}
+.time h1{
+        font-size: 75px;margin: 0px 12px 0px 12px;}
+.buttons{
+    display: flex;flex-wrap: wrap;justify-content: center;
+}
+.buttons button{
+    width: 150px;height: 50px;font-size: 20px;border: 1px solid black;margin:0px 5px 0px 5px;border-radius: 5px;
+}
+.buttons button:hover{
+    color: whitesmoke;background-color: gray;cursor: pointer;
+}
